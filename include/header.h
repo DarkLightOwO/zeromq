@@ -1,11 +1,11 @@
-#ifndef HEADER_H
-#define HEADER_H
-
-#include <czmq.h>
 #include <zmq.h>
+#include <string.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 #include <assert.h>
-
-#endif // HEADER_H
+#include <czmq.h>
+#include <pcap.h>
+#include <netinet/ip.h>
+#include <netinet/tcp.h>
+#include <net/ethernet.h>
+#include <arpa/inet.h>
